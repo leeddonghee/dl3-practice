@@ -1,0 +1,8 @@
+digraph G {
+    A [label="x", shape=box, style=filled, color=lightblue];
+    B [label="y", shape=box, style=filled, color=lightblue];
+    C [label="+", shape=circle];
+
+    A -> C;
+    B -> C;
+}
